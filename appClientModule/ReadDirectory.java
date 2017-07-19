@@ -8,6 +8,7 @@ public class ReadDirectory {
 		File fdir = new File("");
 		try {
 			BufferedWriter br = new BufferedWriter(new FileWriter(new File("d:/utilityworkspace/filesize.txt")));
+			System.out.println("abc");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
